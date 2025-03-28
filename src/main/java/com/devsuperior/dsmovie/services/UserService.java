@@ -22,6 +22,7 @@ public class UserService implements UserDetailsService {
 	
 	@Autowired
 	private CustomUserUtil userUtil;
+	
 
 	public UserEntity authenticated() {
 		try {
